@@ -1,0 +1,36 @@
+* {
+  /*box-sizing: border-box; */
+  font-size: 1.2rem;
+  font-family:'Times New Roman', Times, serif;
+}   
+
+body {
+    background-color : lightyellow;
+}
+
+input {
+    position: relative;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.search-container {
+    width: 20%;
+    margin: 100px auto;
+}
+.search-container .suggestions {
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+ul li {
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(222, 167, 212);  
+}
+ul li:hover {
+  color: rgb(240, 229, 229);
+  background-color: rgb(205, 161, 16);
+}
